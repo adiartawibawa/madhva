@@ -17,6 +17,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Creator
+    |--------------------------------------------------------------------------
+    |
+    | This value is the creator of your application. This value is used when the
+    | framework needs to place the application's creator in a notification or
+    | any other location as required by the application or its packages.
+    |
+    */
+
+    'creator' => env('APP_CREATOR', 'Adi Arta Wibawa'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Environment
     |--------------------------------------------------------------------------
     |
@@ -67,7 +80,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Makassar',
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +93,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'id',
 
     /*
     |--------------------------------------------------------------------------
@@ -106,7 +119,7 @@ return [
     |
     */
 
-    'faker_locale' => 'en_US',
+    'faker_locale' => 'en_ID',
 
     /*
     |--------------------------------------------------------------------------
